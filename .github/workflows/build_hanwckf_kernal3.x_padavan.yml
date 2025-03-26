@@ -247,7 +247,7 @@ jobs:
     - name: Build firmware
       run: |
         cd $WORK_PATH/trunk
-        ./clear_tree
+   #     ./clear_tree
         fakeroot ./build_firmware_modify ${{ env.model }}
     - name: Organize firmware files
       id: organize
