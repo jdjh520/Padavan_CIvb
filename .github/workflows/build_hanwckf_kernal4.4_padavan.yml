@@ -33,7 +33,7 @@ env:
   TOOLCHAIN_URL: https://github.com/TurBoTse/padavan/releases/download/toolchain/mipsel-linux-musl.tar.xz
   WORK_PATH: /opt/padavan-4.4
   TIME_ZONE: Asia/Shanghai
-  FIRMWARE_AUTHOR: hanwckf
+  FIRMWARE_AUTHOR: TurBoTse
   FIRMWARE_PATH: /opt/firmwares
 jobs:
   build:
