@@ -29,8 +29,8 @@ on:
         description: 'upload firmware to anonfiles'
         default: 'false'
 env:
-  REPOSITORY_URL: https://github.com/hanwckf/padavan-4.4.git
-  TOOLCHAIN_URL: https://github.com/hanwckf/padavan-toolchain/releases/download/linux-4.4-v1.0/mipsel-linux-uclibc.tar.xz
+  REPOSITORY_URL: https://github.com/jdjh520/padavan.git
+  TOOLCHAIN_URL: https://github.com/TurBoTse/padavan/releases/download/toolchain/mipsel-linux-musl.tar.xz
   WORK_PATH: /opt/padavan-4.4
   TIME_ZONE: Asia/Shanghai
   FIRMWARE_AUTHOR: hanwckf
